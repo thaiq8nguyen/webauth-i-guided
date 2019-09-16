@@ -54,3 +54,5 @@ server.get('/api/users', (req, res) => {
 
 const port = process.env.PORT || 5000;
 server.listen(port, () => console.log(`\n** Running on port ${port} **\n`));
+
+// Hash Route Why ?
